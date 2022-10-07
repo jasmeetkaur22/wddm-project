@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Exercise 2 : WDDM Project</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <h1 class="centertext">hey everyone, Jasmeet here!</h1>
+    <p>press the button below to view the creator</p>
+    <p class="important">i am using the picture of a minion because i like this character
+        a lot...
+    </p>
+    <figure>
+        <img id="image" src="minion.png" alt="minion image" class="center" width="500" height="500">
+        <figcaption>the person or the character in the picture shown is a minion whose name is kevin..</figcaption>
+    </figure>
+
+
+
+    <button type="button" onclick="show()" id="btnID">click me!</button>
+
+    <script>
+        console.log('Its the second exercise');
+        alert('hi prof, how are you today??? press ok to continue..');
+        function show() {
+
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('image').style.display = "block";
+            document.getElementById('btnID').style.display = "none";
+        }
+
+
+    </script>
+
+</body>
+
+</html>
