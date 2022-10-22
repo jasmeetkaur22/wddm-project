@@ -1,0 +1,53 @@
+@font-face {
+    font-family: peralta;
+    src: url(Peralta/Peralta-Regular.ttf);
+}
+
+@font-face {
+    font-family: passion;
+    src: url(Passions_Conflict/PassionsConflict-Regular.ttf);
+}
+
+body {
+    background-color: rgb(180, 216, 147);
+}
+
+p {
+    font-size: 120%;
+    font-family: peralta;
+    color: rgb(43, 92, 6);
+}
+#image {
+    display: none;
+}
+p.important {
+    border-style: solid;
+    display: inline-block;
+    border-width: 5px;
+    border-color: rgb(245, 245, 31);
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+.centertext {
+    text-align: center;
+}
+
+figure {
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    padding-top: 100;
+}
+
+figcaption {
+    font-family: passion;
+    font-size: 4em;
+    caption-side: bottom;
+}
